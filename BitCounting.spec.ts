@@ -1,6 +1,6 @@
 const countBits = (number: number) => Array.from(number.toString(2)).reduce((a, b) => Number(a) + Number(b) , 0);
 
-describe('test kata counting', function () {
+describe('test kata ', function () {
     it("compter les bit dans integer", function () {
 
         expect(countBits(0)).toBe(0);
