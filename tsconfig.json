@@ -16,11 +16,13 @@
 
   "compilerOptions": {
     "allowJs": true,
-    "module": "commonjs",
+    "target": "ES6",  // Change to "ES6" or "ES5" if necessary
+    "module": "CommonJS",  // Change to "CommonJS"
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "inlineSourceMap": true
+    "inlineSourceMap": true,
+    "outDir": "./dist"
   }
 }
