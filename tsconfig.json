@@ -1,22 +1,13 @@
 
 {
   "files": [],
-  "types": [
-    "jest"
-  ],
 
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.spec.json"
-    }
-  ],
+
+
 
   "compilerOptions": {
     "allowJs": true,
-    "target": "ES6",  // Change to "ES6" or "ES5" if necessary
+    "target": "es2022",  // Change to "ES6" or "ES5" if necessary
     "module": "CommonJS",  // Change to "CommonJS"
     "noImplicitAny": true,
     "removeComments": true,
