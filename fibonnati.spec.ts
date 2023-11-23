@@ -151,6 +151,7 @@ const sumOfFractionFormelReal = (result:string[]) => {
     }
            return val/factor
 };
+import {describe, expect, it, test} from "vitest";
 
 //     Ref: http://en.wikipedia.org/wiki/Egyptian_fraction
 describe('Some Egyptian fractions', () => {

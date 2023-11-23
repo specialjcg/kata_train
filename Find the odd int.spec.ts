@@ -15,6 +15,8 @@
 //     }
 //     return 0
 // };
+import {describe, expect, it, test} from "vitest";
+
 const findOdd = (listNumbers: number[]): number =>
     listNumbers.reduce((occurrences, number) => occurrences ^ number, 0);
 function numberOfInt(numbers: number[], number: number) {

@@ -37,6 +37,8 @@
 // Hint
 // Very often xk will be n-1.
 
+import {describe, expect, it, test} from "vitest";
+
 const decompose = (n: number): number[] | null => {
     const decomposeHelper = (remaining: number, current: number): number[] | null => {
         // Base case: If remaining is 0, return an array with the current value

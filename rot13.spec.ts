@@ -12,6 +12,7 @@
 //     "EBG13 rknzcyr." -> "ROT13 example."
 //
 // "This is my first ROT13 excercise!" -> "Guvf vf zl svefg EBG13 rkprepvfr!"
+import {describe, expect, it, test} from "vitest";
 
 
 const rot13 = (phrase: string) => {

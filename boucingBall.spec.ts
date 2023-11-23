@@ -13,6 +13,9 @@
 //     If all three conditions above are fulfilled, return a positive integer, otherwise return -1.
 //
 // Note:
+
+import {describe, expect, it, test} from "vitest";
+
 const bouncingBall = (h: number, bounce: number, window: number) => {
     if (h > 0 && bounce > 0 && bounce < 1 && window > 0 && h!=window) {
         let result = 1;

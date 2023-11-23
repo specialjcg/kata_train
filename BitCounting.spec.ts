@@ -1,3 +1,5 @@
+import {describe, expect, it, test} from "vitest";
+
 const countBits = (number: number) => Array.from(number.toString(2)).reduce((a, b) => Number(a) + Number(b) , 0);
 
 describe('test kata ', function () {

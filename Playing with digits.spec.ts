@@ -37,6 +37,7 @@ const digPow = (n: number, p: number):number => {
 const numberToDigit = (number: number) => number.toString().split('').map(Number);
 
 const digPowList = (numbers: number[], number: number) =>  numbers.map((x, index) => x ** (index + number)).reduce((a, b) => a + b, 0);
+import {describe, expect, it, test} from "vitest";
 
 // Given a string with the weights of FFC members in normal order can you give this string ordered by "weights" of these numbers?
 describe('Playing with digits ', () => {

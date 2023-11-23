@@ -42,6 +42,7 @@
 // Tests with large intervals
 // Your algorithm should be able to handle large intervals. All tested intervals are subsets of the range [-1000000000, 1000000000].
 
+import {describe, expect, it, test} from "vitest";
 
 const sumOfIntervals = (intervals: number[][]) => {
     // Ensure that the intervals are valid

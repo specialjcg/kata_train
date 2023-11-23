@@ -42,6 +42,7 @@ const phoneNumber = (strings: string[]): number => {
 const saveNum = (s: string): string[] => {
     return Array.from(s).map((_, i) => s.slice(0, i + 1));
 };
+import {describe, expect, it, test} from "vitest";
 
 const addList = (s: string, list: string[]): string[] => list.includes(s) ? list : [...list, s];
 

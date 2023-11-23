@@ -5,6 +5,7 @@
 //
 //     We will return an array of subarrays or of tuples (in C an array of Pair) or a string. The subarrays (or tuples or Pairs) will have two elements: first the number the squared divisors of which is a square and then the sum of the squared divisors.
 //
+import {describe, expect, it, test} from "vitest";
 
 
 const listSquared = (m: number, n: number): number[][] => {

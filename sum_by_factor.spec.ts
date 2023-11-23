@@ -28,6 +28,7 @@ const listNbrpremier = (number: number): number[] => Array(number).fill(1).map((
 
 export const primeFactor:number[]=listNbrpremier(10000)
 
+import {describe, expect, it, test} from "vitest";
 
 
 const sumallDivider = (numbers: number[], val: number): number => {

@@ -10,6 +10,7 @@
 //     180 is before 90 since, having the same "weight" (9), it comes before as a string.
 //
 const customSort = (a: number[], b: number[]) => a[0] === b[0] ? a[2].toString().localeCompare(b[2].toString()) : a[0] - b[0];
+import {describe, expect, it, test} from "vitest";
 
 
 //     All numbers in the list are positive numbers and the list can be empty.

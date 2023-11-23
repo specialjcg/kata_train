@@ -73,6 +73,7 @@ const divisor = (number: number): number[] => {
 
     return divisors.sort((a, b) => a - b).slice(0,divisors.length-1);
 };
+import {describe, expect, it, test} from "vitest";
 
 describe('buddy kata ', () => {
     it('should give all divisor of number', () => {
